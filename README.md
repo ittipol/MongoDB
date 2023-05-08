@@ -141,7 +141,7 @@ db.users.insertOne({name: "Test name"})
 #   insertedId: ObjectId("6455d6c4a3f26ada5daa707f")
 # }
 
-db.users.insertOne({ name: 'New Name', age: 20, hobbies: ['Runnimg', 'playing video game'], address: { street: '123', city: 'New York City' } })
+db.users.insertOne({ name: 'New Name', age: 20, hobbies: ['Running', 'playing video game'], address: { street: '123', city: 'New York City' } })
 
 # insert many documents
 db.users.insertMany([{name: "Name 1", age: 22}, {name: "Name 2", age: 18}])
